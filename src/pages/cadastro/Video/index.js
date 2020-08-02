@@ -26,7 +26,7 @@ function CadastroVideo() {
   }, []);
 
   return (
-    <PageDefault>
+    <PageLayout>
       <h1>Cadastro de Video</h1>
 
       <form onSubmit={(event) => {
